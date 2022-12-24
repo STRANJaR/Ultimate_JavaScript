@@ -10,7 +10,7 @@ let newArr = num.concat(num_more);
 console.log(newArr); 
 
 // Sort method 
-let arr = [555,333, 776, 454, 347, 563] ;
+let arr = [555,333, 776, 454, 347, 563];
 arr.sort();
 console.log(arr);
 
@@ -31,7 +31,7 @@ console.log(arr);
 
 // Splice and Slice  
 let num2 = [555,333, 776, 454, 347, 563];
-num2.splice(2, 3, 1000, 2000, 300, 400, 500); // (srart from , delete , add values )
+num2.splice(2, 3, 1000, 2000, 300, 400, 500); // (start from , delete , add values )
 console.log(num2);
 let delVal = num2.splice(2, 3, 1000, 2000, 300, 400, 500); // print deleted value in the arrys 
  console.log(delVal);
@@ -39,3 +39,5 @@ let delVal = num2.splice(2, 3, 1000, 2000, 300, 400, 500); // print deleted valu
  let obj = [5, 6, 7, 8];
 //  obj.pop();
  console.log(obj.length);
+
+ 

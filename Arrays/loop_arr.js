@@ -20,6 +20,6 @@ for(let item of num){
 
 // for...in Loop
 for(let i in num){
-    console.log(i);  // this  print only keys
+    console.log(i);       // this  print only keys
     console.log(num[i]); // This print actual value.
 }

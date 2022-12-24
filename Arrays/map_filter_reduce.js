@@ -20,3 +20,6 @@ let newArr = arr3.reduce((value1, value2)=>{
 
 })
 console.log(newArr);
+
+
+

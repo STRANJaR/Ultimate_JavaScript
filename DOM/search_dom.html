@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Dom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIAAwAMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAEBQIDBgEABwj/xAA8EAACAQMCAwUFBwIGAgMAAAABAgMABBESIQUxQRMiUWFxBjKBkbEUI6HB0eHwFUIWM1JTgpJiciRD0v/EABoBAAIDAQEAAAAAAAAAAAAAAAIDAAEEBgX/xAAqEQACAQIFAwMEAwAAAAAAAAABAgADEQQSITFBEyJRBRRCMmGhsRWB8P/aAAwDAQACEQMRAD8AwSpnyq5Ix0oiG31Hxo0WyAYA38a1NUAnj0qZOsAWJeuambQbFXU+RphHbRj3mYegoiP7JEPcdj47ZrO9Yjabkoj5ERebJVQgdfBtqEkG4UMuR9PCnm8gBDCMA9NyfjVczqFULjA94DqaFHfkRtRE4MCgsEXQzCPQRqV5NsHwNduZrg3Ki1eJA40q8R2Pxqd/KZYEQYBGeVLzGdCgD1pqUS/c8RVxATsTaUXkSoVzM8j5OvJ5GhQm4zn4UY0TZ3FVmOtirYTznq3a8GdBk4HOo6NqK7M1wx0doOeC6K9oonR5VzRUtLzQbTUSlFFKiUqWhBoKVqJWiSh6CpR28kuezQtjntQkW3hgk7QTTUSKJeJl30nFcSFnOwOPSgJG8Ox2gpXeuaaLaHTkE71UyAHAqrwtRKezqJUdaKMOnALrk+BqLomcRjfxoTDE2aQ4GQKtELY904rVWvA5XGTEE/8AarJbCKI6Nak+Qrw/5FXPbPTHp7KO42mUFueoPyqa248BWk+xBhgnA9KnHZ2sIyygt4k04Yo+IHtvvMybRn6YHpUf6cxO29ah+ybZY9TdABVkVjPMp0LHHgZ71MXEsNbWgnDKdAbzKx8IkkbGD8KKj9m2cHJA2/CnhikgyFmXY5wvjQ06PJnU7HOxydqZ1arnQ2g9Kim4uZnLzhiQSMhIyvjQMlknTnWnNlHuXkHpjNd7KyijyU1Py5VqFUgeZkagrHgTImyPQE1A2E3RM1vrGGznjXGdQ30qlENbIiDsw+g+O/xpL+oFDbLHJ6UrjNmnzteGTHc6AOuWG1DSW+g4Zk+Br6TJwmAxa3YkEZJApY3CLBkMjkDfu6tvrUT1HMdRLf0kKNGmHa3wurUp9KHYYPKtw44XaQZQB3XbGnmPHNKrm2juZBJaKq6vGQbU9MUSdRYRD4FQt1a58CK4eDvJEksriMP7qkbn9KvtYEt97mSNos6RqbG/pVV27mQi6ct055x6UEgXnghT7vjR5DUHcYPUFH6BDOIaZWEVtvGu7ELgH9aZs9tZ2aIqADTuxTBz8aX2sQmGm4un0ryQH+YqF9ayYJaUv4L5Ul6akhCdpopVXsaoFyYFIbV5XMmfEHxoV5YtBSOMc+ZqUqOpwcCq1jjG7kk08IBMzVCTrKNPlivOHYdAPCriyk+6agd9sVZgrrPtlzfS3Z024YJ6VCKBUXXIGaTwzijo4iPdXHoKs+zM25Fc6lNVFgJ7JZmNyYueFpGyNvKpLZRp33JJ8KY/ZyByrvYueQp6iLIgSqFwY1A9ajIJW944HlR/2Y9RVqWDsupVLeVMFhvK7jtFHYLjDA1B7bVsijJPU09+xyRodCxljyyaCYEzNFK8Y0jJwP2oxWAk6BMWtw0ofvpYoVzzY7/AULNHw+MFe1llJ5aQB9auuezEh1SFl55Jxj8M1mbr2gt45zEgYZLDtCdxjPTng7HPnVmsDuT+oPRy8D9xtdXSWyH7GnZ5I3kfLD0+PlQU012xDXEzdMZfZf0rFcR4lJcTGZS2twp0oc4IGTjyzvQaXdy17G7uzDKkqx54xjNRKljeR1DC02/9TIYxfapeWG0knHhVdy0jCP75SByDczSgcVVBO8kqJqbRHgbswwNWccutVRX8N337iQBgQO8Ovh9K0q6E72mcqwB0v/cc3HZFQiNNKCd1H5GqlihWc6opMcgoI/GvJcgMAEVVTotQu5JLlgO0V1zsmnGKYV4lKxK5jxIzwwljJL7qnAAP50NNcW4QRxhYwNuWa60TFgCSQoxv0quYoemfIU0KAREszFSZz7e0arHCFfGwJTeqZbmeT/M1elXwonJYd/HwrplCHSV1eRoiBfQQVuF1YxcIJJX7qYXzqX2ED3zg0YxuX3Q6F9Kpe2kAyXOfEmrvpByA6gSAtYkUlip9aFljXURlceVXhFz94SfjVUqr0zQWN4xitrWn6CSAYyahJe8Pg2luUU+Gd6z/APieXJ0rIARscDag5uKyXCsrKxJPvNz+lc6HadCKAj+fj/DIzpVzIfIGhW4/byEC3Qk42DDas6ZJSGGhSDjHd5fGohZCNtvSjzA8wuhbiPzxwqwLqmjAzhga9/XyCQuQDyNJ0t7gxkx2rnxYKaokimGzQuD6U1Sp3MBqZGwjO44lKqEp2hkfk2eXpS6OW6fUBIQScltqo0yqPcI88VXh+gNPQAbRDgncSjjkMi2rHtMzO2BncEYPXpWIu40efJfLA4CRkEH5Vq+PmVI0kBGnGMsQCD+lIi6i2AKdmCd2UjJ5VnqPZtYFhbaLVTKFhHoMhyGLD5+NUXUjx6nY6QAPu84OCMdB40bNpjgLgoGDFSQc58zQ6XBGtf8AMV1wSoIGB9d6JWJgkQKS7jVonaN9a9QdOD/PrV1m4E0Mp1BVfPd3wOu3jRweFoOyFsiuHDCUnqP9P88aXGIayM4jh7xZDq9P5vTAQdoFpoeHXAJIPZv2p1CJWJ0A9STy5cqcMYo42WNEGRjV5VmbGxubqXtLS4hQBtRV3w4HpWvECsimQPrI3A5VpouSNYl08RWzKMnV8qr1opyqgnxxTJ+Ho+TEnd8G2r0fA9eCdKA+Oa1dRRrEdJjoIrM0mfu1z8a7FBczMHS2ZhnmBt86fr7OkJgEY6EVBeETI+BcEKOY10PXXiF7duYveGVEAkIB/wBOK61rG4BlnA8jTi34Rk/e5YepOaK/psSLhkBHnsaX11lmmbzITQQMdETMxJ6DNcPA5nGc49RWvFraIM7KfnQtwyDKiddPQKm/zoWxBOixiYdSLtGpjErZECr5LRUNuP8AaWn0PBGNMrfgQ21/WuPWpiKhsqzqGrUE5mZWEhgyRhWHUVJjca9erDctgK2acEtwu5Jqi54NEBs6j1OKccNjEGYiKGNok2tMbIZtWZJGx13qmSC3UZ1a2PQAj61o5+Fxg/5sf/YULJwvPIqfiKFcQ6/UI3NSfYzNyRpy3A8KpdFwe7860L8If+EVBuDSEZyPQ1pXHCLaih5mH4zwmW8YyKzNjGmMZyPx3pBe2pjkZZECksVUk759P1r6k3B5DzYfOl937KW1zntYojnng4znx8aI4pCbkxLYbxPlE1yLfUskKkhdzGQud+fnVEELzrI8Ui6k1Myn3ee2P3rdcU9gQluTbyO6qdXZAjOPAZ2rJnh91YmZH1RopAJx7pHeUj4KT542rZQrU3HadZjqUXQ9wi8WhjSORgxiJJ1hTu3UYqDRXKwu0sZKIQjnmNWeR656fCtWnD7N7ezS4ke0cLqaY6m72OWQNqnaez0culLPj1rNI5y0Wo9nJ67bE8qZ7hF3g+3Y7TM8NUytAjTyRoW3kQYKb9fEVtLOw+yxYjkMjH+9nzmndp7NcNhj+8WIyMxdirnn/wCJ504ijtYV0QLCNveZdX1NKGPRT2xq4FvlMkY5Or7+lSR7hcdnq1Dk1aqW17QD75R6RqKpNjDjDS7+Owpo9SU7yjgDxM8TeyZ1v6kuajHFNG2Y2jB9M0+bhsHM3BPxqD2Nu3/3sPQ/tRjHU/8ACAcC8WvJfMgUucDlpIWhZFvWGM59XJpv/S7YHJuHP/I1Nba1XOXz8anvUGw/EoYNuTM49rdN70mj/lVTWUn907EVqCtsOWKpdLY+Pzq/fnxKOBXzJQe2V/ol1nLYGjAOPPrRMPtrxHGBjJPngfjWQFsQcfbI8fE1fFAFB/8AmrnyWucKqNjPXWx3E3lv7bXUcOiQrK4G7Ebmgbr2yumyUjAJ58z+dZdLYA969Oo+Cj9a8bSLJBuJjj/SKEsx+piYeSmNQojZ/ay7YnKJnzT96r/xXd59yI+iH9aW/YbYY1S3R/5ftUxY2o/tkK+bnNS1MRZZuIw/xZdctMY8tB/WuH2quSOUf/U/rQw4fZjd4x8WJ/OqW4XaOci2jzj/AHDvRBqXiLZqo5hbe085/ui/6n9arPtLKT78Xyb9arPCrArlrW3Xbm2CcVXJwzhqj7uC0bA2OOVEKlLx+IDPW8y1/aGTSWMkQA39xzSL2ju0vzZ3CyIs/aqBIqsO7nIJ1c8Hemy2kUQKR2VjoyAxZzz5Egb0Th44wEe1jjXAQgbfSmrXCG6iLY1HGpigXHEWjjW2vYdMXIpC+5PU93nzo63v+KQqFRbUN1IhkX8qJfvvvxDA/ujjIAJ9aj3oVGmUTAHGeZ+dQ4kngSKhGt5GO+4wz/eraBf9Wcn5V08Xv0JzcWageI/elpu5JeVrIrI2D6+G9RPEVjd4plaNyucuuBny8RtRhqh4Ehf7mMf6/dDlc2BP/t+9Vtx6+/tnsf8At+9LH4pLETrgR1BGWQnarYeIiUfdwSPqGcjJ5c6K7jXL+oOcn5QluPcQ/wB2zPo4/Wqzx7imMmO1I8e0H61XNeTxDJtSAOpNCtxiUHS9iQNxsN/WjWo52UfiASR8jCG9oOJnlDan0lX/APVBy8a40zlkFqo8BLH+tVt7QTRzBBbKds4x4+tXjjiOBpUdrnDKTy9PGm56g+AgXv8AIysca431itSfKdB+ZqI45xcnBhiz5TRn86KN+3aYZ0bAHdDeI8xUU4jGZjEcq2cAZ51Ou4+Eorf5Gdg4kk8neij1scY07miPt6hywjVQvTG9LOGSwxhruXBkbdFHIUBLdN2kzMcl2OCD1yaR0QzECbM1hcx+L7CiQkNvg5qR4miHZuvPrvzrOCctAVEmM5zq8aoZDjAnGrGeeBRjCqd5RrG00Y4w4zIxyCSFz/PKqJOKzIZNUhCpnLH8PqKSPIDAgD5CnbrsfzqMjyLGoTLKNxq5CmLhk8RBqGN241IzMCzFtYQDPNtuXzpo3EFRwodj2g235GslbiIjtS/fLbE/246/n8Kk0gknSQMRgEgauVE+GQ7QeoRHwu3niV92KEq8anBPP867ZTLBbhJCzgy6VBbcDBHP+cqz8d21mZwW2ckg53JOP58aHu+IySSYBGGIwB0/n51ftr6DaLLzaRT2qsQIz/maUOrPIg5x8aH4zxD7Tbi1jlIYYAbO6bd3PqcVnoZXlS3mEmMOc78yf2+lWCYSyMwAbXHkt4nGR8sfhQDCgMCeJefSwk5uJTImhyBIRhs7cjz/AApsnFWaeQkHDJv64yKz7pM0rSlO0RlyB4+FQtpWwiyllYHceHSnPRR1gqxE0icTJUqTgnfT1zXNuJMkbHJGTnHLIpNbvGtx9odiXUagOgJOw/H8KY2E5iVQNsKoJI38Dms70gmq7xqtm3hkNq9sglypDYVgN/HYUbbXZlXteQBxgDp/CRQEl2HQafdOwHgRQ5uiqRoowM97Hx/UUkozju3jgVU6Rvc3apCzkbbqw6YoP7dbiEd1VTcjy60E9wRrUtkY3/Oll2C8RQcgDuPKjp4cbGDUq8xwZoGAkIDgZJDDG3Ohnu7cuFhUK2/IA5z/AAUrgmCOUB1RjnvzX+GhpIJYpsRlimTpPl4VpWgBoTMxbkR0ijtu0LxqDjvdR5elQuEjjmWb3u6R5j4mlcckqMez0MB4k7CpQtcu7jGscyM/Oj6RGt5Lyye5WOMRx5zigcuylxnSuwXxqA1M7leeMfjUlUrpUZORnI6A05VCw2YmecSqo0nKnYAcz6VBGdgY59OMYyenjRsSqmFdRGo6czXROER5VUeCrjn61ebwIMHULGQI1dv/ACbkPyoiVGniGhXVV72tqpW6lm5ZZQ2DgE/CijJ3yrKpx72R1qje8q8ENvM0RCcsADpkfzP4V5IZ0jCpE2rfPocc6KPaNIBG/exuCox6V1Y5gragi6dslj+VTMeZVovktJ52P3TdTkn3cc6gLSTu9oM69tIHWmqy4RgNUgA7xO2R8K5q1le0PfO4Venl6VfUMrJKW1tANEZBR+6h6jfnRGgQLc9nnUECenKpRn71UXouSQOZqkzSM7KWGrOAOgyRS7kmFltLLQO1mCBkkEZxuNxRLJAi9moBUD+7f60JHMASI3Ahwc45lvOq4JAZ2ldthkEHkCKoqSZBCezCkaSmnfK4O/hUpJw8WpTnkOX40MpElxIS5wQyrg8tj+1BQzP2kijONQwPLc1OnfeXe0ZtMOweHI14DBieorkjsDGCcYUE786BjOuSRM5PZ4+P8FXh9cW7aikZXFQoBJe8ve4IlRFI574qUjjsGlADEHTp6b0ucO5LEDfBBP4/SjoWDWrpgE6ck8snJB+n41TKBYyA30gylSJMoVyT3s8/GiuHsguNZYkbAg9POlEsky93dseB50SiSh9KnDhA+M8x1+tNZNIKmxjG9sfvJZY5Cp54xn+ePzqrh7PFJIxKGRcNGeXqKsW4OI3znSdDedWIFdTEoyzAtEx8Rvj5GkXbLZo6wLZln//Z"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 id="text" class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+<script src="search_dom.js"></script>
+</body>
+
+</html>

@@ -17,7 +17,6 @@ else if((comp=='SNAKE' && player == 'WATER') || (comp=='WATER' && player == 'GUN
     console.log("'COMPUTER'S WON'");
     comp++;
     
-
 }
 
 else if((comp =='SNAKE' && player == 'GUN') || (comp=='WATER' && player=='SNAKE') || (comp=='GUN' && player == 'WATER')){

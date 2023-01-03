@@ -9,7 +9,7 @@ console.log(first.hasAttribute("class"));
 console.log(first.hasAttribute("style"));
 
 // set attribute 
-// console.log(first.setAttribute("hidden", "true")); 
+console.log(first.setAttribute("hidden", "true")); 
 console.log(first.setAttribute("class", "shrivastav rohit")); 
 
 // remove attribute 

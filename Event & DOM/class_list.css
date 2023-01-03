@@ -1,0 +1,19 @@
+.yellow{
+    background-color: yellow;
+    color: white;
+}
+
+.red{
+    background-color: red;
+    color: white;
+
+}
+.dark-text{
+    color: black;
+}
+
+.among{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 2rem;
+}

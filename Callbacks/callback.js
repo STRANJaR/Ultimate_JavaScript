@@ -1,13 +1,13 @@
-// // Synchronous programming
-// let a = prompt("What is your name?");
-// let b = prompt("What is your age?");
-// let c = prompt("What is your favorite color?");
-// console.log(a + " is " + b + " years old and his favorite color is " + c);
+// Synchronous programming
+let a = prompt("What is your name?");
+let b = prompt("What is your age?");
+let c = prompt("What is your favorite color?");
+console.log(a + " is " + b + " years old and his favorite color is " + c);
 
-// // Asynchronous programming 
-// setTimeout(function(){
-//     console.log("Hey I am Rohit.");
-// },  4000)
+// Asynchronous programming 
+setTimeout(function(){
+    console.log("Hey I am Rohit.");
+},  4000)
 
 // Callbacks
 function loadScript(src, callback) {

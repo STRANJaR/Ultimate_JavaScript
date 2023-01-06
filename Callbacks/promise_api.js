@@ -29,9 +29,9 @@ let p3 = new Promise((resolve, reject) =>{
 
 // Promise.all  /// When all promises are compleated then it's execute.
 
-let promise_all = Promise.all([p1,p2,p3]);
-let promise_all = Promise.allSettled([p1,p2,p3]);
-let promise_all = Promise.race([p1,p2,p3]);
+// let promise_all = Promise.all([p1,p2,p3]);
+// let promise_all = Promise.allSettled([p1,p2,p3]);
+// let promise_all = Promise.race([p1,p2,p3]);
 let promise_all = Promise.any([p1,p2,p3]);
 promise_all.then((value)=>{
     console.log(value);

@@ -22,12 +22,14 @@ async function weather(){
     return [delhi, banglore];
 }
 
+
+
 const cherry = async() =>{
     console.log("Hey i am cherry and im  waiting...");
 }
 const main1 = async() =>{
 
-    let x = await weather();
+    let x = await weather();   // IF i want to await 'weather' and 'cherry' both functions.
     let y = await cherry();
    
 }

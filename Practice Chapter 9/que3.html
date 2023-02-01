@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Que 3</title>
+
+    <style>
+        fieldset{
+            background-color: rgb(191, 243, 208);
+
+        }
+        legend{
+            background-color: red;
+        }
+
+        #btn_sub, #btn{
+            background-color: rgb(0, 74, 235);
+            padding: 6px;
+            margin: 4px;
+            border-radius: 3px;
+            font-size: 1rem;
+            color: white;
+            border: none;
+
+        }
+        #btn_sub, #btn:hover{
+       cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
-    
+<form action=""> 
+    <fieldset>
+        <legend>Admission Form::</legend>
+
+        <label for="name">First Name:</label>  
+            <input type="text">
+            <br><br>
+        <label for="lastname">Last Name:</label>
+            <input type="text">
+        <br><br>
+
+        
+
+        <label for="gender">Gender: </label>
+        <br>
+           <label for="male">Male: <input type="radio"></label> 
+           <label for="female">Female:<input type="radio"></label> 
+           <label for="trans">Trans:<input type="radio"></label> 
+            
+            <br> <br>
+        <input type="submit" id="btn_sub">
+        
+        <button id="btn">Dowonload CV</button>
+    </fieldset>
+</form>
+
     <script src="que3.js"></script>
 </body>
+
 </html>

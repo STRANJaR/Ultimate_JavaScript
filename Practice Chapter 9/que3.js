@@ -6,8 +6,6 @@ async function finalResult(){
     })
 
     let result = await pro;
-    
-
 }
 
  try{
@@ -17,3 +15,12 @@ async function finalResult(){
 catch(error){
     console.log("Error");
 }
+
+// For dowonloading CV 
+
+const cv = function(e){
+    window.open('https://github.com/STRANJaR');
+}
+let btn = document.getElementById("btn");
+
+btn.addEventListener('click', cv);

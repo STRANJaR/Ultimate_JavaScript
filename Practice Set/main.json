@@ -1,0 +1,412 @@
+[
+    {
+        "name": "ProjectEuler+",
+        "url": "https://hackerrank.com/contests/projecteuler",
+        "start_time": "2014-07-07T15:38:00.000Z",
+        "end_time": "2024-07-30T18:30:00.000Z",
+        "duration": "317616720.0",
+        "site": "HackerRank",
+        "in_24_hours": "No",
+        "status": "CODING"
+    },
+    {
+        "name": "Hackathon of Hope with Celo",
+        "url": "https://hope.hackerearth.com/",
+        "start_time": "2022-11-22T01:28:00.000Z",
+        "end_time": "2023-02-01T07:59:00.000Z",
+        "duration": "6157860.0",
+        "site": "HackerEarth",
+        "in_24_hours": "No",
+        "status": "CODING"
+    },
+    {
+        "name": "Cloudera Applied Machine Learning  Prototype Hackathon",
+        "url": "https://www.hackerearth.com/challenges/hackathon/cloudera-applied-machine-learning-prototype-hackathon/",
+        "start_time": "2023-01-02T05:00:00.000Z",
+        "end_time": "2023-02-01T04:59:00.000Z",
+        "duration": "2591940.0",
+        "site": "HackerEarth",
+        "in_24_hours": "No",
+        "status": "CODING"
+    },
+    {
+        "name": "Build a Web App for Millions of Users",
+        "url": "https://pinetwork.hackerearth.com/",
+        "start_time": "2023-01-09T19:11:00.000Z",
+        "end_time": "2023-02-28T20:40:00.000Z",
+        "duration": "4325340.0",
+        "site": "HackerEarth",
+        "in_24_hours": "No",
+        "status": "CODING"
+    },
+    {
+        "name": "Veridic HireSprint2023",
+        "url": "https://www.hackerearth.com/challenges/competitive/veridic-hiresprint2023/",
+        "start_time": "2023-01-26T04:17:00.000Z",
+        "end_time": "2023-03-10T04:18:00.000Z",
+        "duration": "3715260.0",
+        "site": "HackerEarth",
+        "in_24_hours": "No",
+        "status": "CODING"
+    },
+    {
+        "name": "IPETRONIK Software Embedded Developer Hiring Challenge",
+        "url": "https://www.hackerearth.com/challenges/hiring/ipetronik-software-embedded-developer-hiring-challenge/",
+        "start_time": "2023-01-27T12:30:00.000Z",
+        "end_time": "2023-02-06T00:30:00.000Z",
+        "duration": "820800.0",
+        "site": "HackerEarth",
+        "in_24_hours": "No",
+        "status": "CODING"
+    },
+    {
+        "name": "THIRD PROGRAMMING CONTEST 2022（AtCoder Heuristic Contest 017）",
+        "url": "https://atcoder.jp/contests/ahc017",
+        "start_time": "2023-01-28T03:00:00.000Z",
+        "end_time": "2023-02-05T11:00:00.000Z",
+        "duration": "720000",
+        "site": "AtCoder",
+        "in_24_hours": "No",
+        "status": "CODING"
+    },
+    {
+        "name": "Starters 76 (Rated till 5-Stars)",
+        "url": "https://www.codechef.com/START76",
+        "start_time": "2023-02-01 14:30:00 UTC",
+        "end_time": "2023-02-01 17:30:00 UTC",
+        "duration": "10800",
+        "site": "CodeChef",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Codeforces Round #848 (Div. 2)",
+        "url": "https://codeforces.com/contestRegistration/1778",
+        "start_time": "2023-02-01T14:35:00.000Z",
+        "end_time": "2023-02-01T16:35:00.000Z",
+        "duration": "7200",
+        "site": "CodeForces",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Codeforces Round #849 (Div. 4)",
+        "url": "https://codeforces.com/contestRegistration/1791",
+        "start_time": "2023-02-03T14:35:00.000Z",
+        "end_time": "2023-02-03T17:00:00.000Z",
+        "duration": "8700",
+        "site": "CodeForces",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Toyota Programming Contest 2023 Spring Qual A（AtCoder Beginner Contest 288）",
+        "url": "https://atcoder.jp/contests/abc288",
+        "start_time": "2023-02-04T12:00:00.000Z",
+        "end_time": "2023-02-04T13:40:00.000Z",
+        "duration": "6000",
+        "site": "AtCoder",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Biweekly Contest 97",
+        "url": "https://leetcode.com/contest/biweekly-contest-97",
+        "start_time": "2023-02-04T14:30:00.000Z",
+        "end_time": "2023-02-04T16:00:00.000Z",
+        "duration": "5400",
+        "site": "LeetCode",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Weekly Contest 331",
+        "url": "https://leetcode.com/contest/weekly-contest-331",
+        "start_time": "2023-02-05T02:30:00.000Z",
+        "end_time": "2023-02-05T04:00:00.000Z",
+        "duration": "5400",
+        "site": "LeetCode",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Codeforces Round #850 (Div. 2, based on VK Cup 2022 - Final Round)",
+        "url": "https://codeforces.com/contestRegistration/1786",
+        "start_time": "2023-02-05T12:05:00.000Z",
+        "end_time": "2023-02-05T15:05:00.000Z",
+        "duration": "10800",
+        "site": "CodeForces",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Codeforces Round #850 (Div. 1, based on VK Cup 2022 - Final Round)",
+        "url": "https://codeforces.com/contestRegistration/1785",
+        "start_time": "2023-02-05T12:05:00.000Z",
+        "end_time": "2023-02-05T15:05:00.000Z",
+        "duration": "10800",
+        "site": "CodeForces",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "VK Cup 2022 - Финальный раунд (Engine)",
+        "url": "https://codeforces.com/contestRegistration/1784",
+        "start_time": "2023-02-05T12:05:00.000Z",
+        "end_time": "2023-02-05T15:05:00.000Z",
+        "duration": "10800",
+        "site": "CodeForces",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Intel® oneAPI Hackathon for Open Innovation",
+        "url": "https://www.hackerearth.com/challenges/hackathon/intel-oneapi-hackathon-for-open-innovation/",
+        "start_time": "2023-02-06T12:30:00.000Z",
+        "end_time": "2023-02-26T18:29:00.000Z",
+        "duration": "1749540.0",
+        "site": "HackerEarth",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Starters 77",
+        "url": "https://www.codechef.com/START77",
+        "start_time": "2023-02-08 14:30:00 UTC",
+        "end_time": "2023-02-08 17:30:00 UTC",
+        "duration": "10800",
+        "site": "CodeChef",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Codeforces Round (Div. 2)",
+        "url": "https://codeforces.com/contestRegistration/1788",
+        "start_time": "2023-02-09T14:35:00.000Z",
+        "end_time": "2023-02-09T16:35:00.000Z",
+        "duration": "7200",
+        "site": "CodeForces",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Ｓｋｙ Inc, Programming Contest 2023（AtCoder Beginner Contest 289）",
+        "url": "https://atcoder.jp/contests/abc289",
+        "start_time": "2023-02-11T12:00:00.000Z",
+        "end_time": "2023-02-11T13:40:00.000Z",
+        "duration": "6000",
+        "site": "AtCoder",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Learn Coding for Brother Printers",
+        "url": "https://brother.hackerearth.com/",
+        "start_time": "2023-02-12T05:00:00.000Z",
+        "end_time": "2023-03-01T04:59:00.000Z",
+        "duration": "1468740.0",
+        "site": "HackerEarth",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "AtCoder Grand Contest 061",
+        "url": "https://atcoder.jp/contests/agc061",
+        "start_time": "2023-02-12T12:00:00.000Z",
+        "end_time": "2023-02-12T15:00:00.000Z",
+        "duration": "10800",
+        "site": "AtCoder",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Starters 78",
+        "url": "https://www.codechef.com/START78",
+        "start_time": "2023-02-15 14:30:00 UTC",
+        "end_time": "2023-02-15 17:30:00 UTC",
+        "duration": "10800",
+        "site": "CodeChef",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "NuHarbor Hackathon",
+        "url": "https://polyglot.hackerearth.com/",
+        "start_time": "2023-02-16T05:01:00.000Z",
+        "end_time": "2023-04-01T03:55:00.000Z",
+        "duration": "3797640.0",
+        "site": "HackerEarth",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "SWERC 2022-2023 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+        "url": "https://codeforces.com/contestRegistration/1776",
+        "start_time": "2023-02-19T11:05:00.000Z",
+        "end_time": "2023-02-19T16:05:00.000Z",
+        "duration": "18000",
+        "site": "CodeForces",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Toyota Programming Contest 2023 Spring Qual B（AtCoder Beginner Contest 290）",
+        "url": "https://atcoder.jp/contests/abc290",
+        "start_time": "2023-02-19T12:00:00.000Z",
+        "end_time": "2023-02-19T13:40:00.000Z",
+        "duration": "6000",
+        "site": "AtCoder",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Starters 79",
+        "url": "https://www.codechef.com/START79",
+        "start_time": "2023-02-22 14:30:00 UTC",
+        "end_time": "2023-02-22 17:30:00 UTC",
+        "duration": "10800",
+        "site": "CodeChef",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Skill-a-thon 1.0",
+        "url": "https://www.hackerearth.com/challenges/hackathon/skill-a-thon-10/",
+        "start_time": "2023-02-24T04:30:00.000Z",
+        "end_time": "2023-02-26T18:29:00.000Z",
+        "duration": "223140.0",
+        "site": "HackerEarth",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Coding Practice with Kick Start Session #1",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-02-24T16:00:00.000Z",
+        "end_time": "2023-02-28T16:00:00.000Z",
+        "duration": "345600.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "AtCoder Regular Contest 156",
+        "url": "https://atcoder.jp/contests/arc156",
+        "start_time": "2023-02-25T12:00:00.000Z",
+        "end_time": "2023-02-25T14:00:00.000Z",
+        "duration": "7200",
+        "site": "AtCoder",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Codeforces Round (Div. 2)",
+        "url": "https://codeforces.com/contestRegistration/1789",
+        "start_time": "2023-02-25T18:35:00.000Z",
+        "end_time": "2023-02-25T20:35:00.000Z",
+        "duration": "7200",
+        "site": "CodeForces",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Round A 2023",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-03-19T04:00:00.000Z",
+        "end_time": "2023-03-19T07:00:00.000Z",
+        "duration": "10800.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Round B 2023",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-04-15T17:00:00.000Z",
+        "end_time": "2023-04-15T20:00:00.000Z",
+        "duration": "10800.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Coding Practice with Kick Start Session #2",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-05-05T03:00:00.000Z",
+        "end_time": "2023-05-09T03:00:00.000Z",
+        "duration": "345600.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Round C 2023",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-05-21T14:00:00.000Z",
+        "end_time": "2023-05-21T17:00:00.000Z",
+        "duration": "10800.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Round D 2023",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-07-08T05:00:00.000Z",
+        "end_time": "2023-07-08T08:00:00.000Z",
+        "duration": "10800.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Round E 2023",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-08-19T10:00:00.000Z",
+        "end_time": "2023-08-19T13:00:00.000Z",
+        "duration": "10800.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Coding Practice with Kick Start Session #3",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-08-27T10:00:00.000Z",
+        "end_time": "2023-08-31T10:00:00.000Z",
+        "duration": "345600.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Round F 2023",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-09-17T23:00:00.000Z",
+        "end_time": "2023-09-18T02:00:00.000Z",
+        "duration": "10800.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Round G 2023",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-10-14T12:00:00.000Z",
+        "end_time": "2023-10-14T15:00:00.000Z",
+        "duration": "10800.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    },
+    {
+        "name": "Round H 2023",
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/schedule",
+        "start_time": "2023-11-04T03:00:00.000Z",
+        "end_time": "2023-11-04T06:00:00.000Z",
+        "duration": "10800.0",
+        "site": "Kick Start",
+        "in_24_hours": "No",
+        "status": "BEFORE"
+    }
+]

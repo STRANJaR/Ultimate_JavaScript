@@ -16,7 +16,7 @@ class Monkey extends Animal{
     eatBnana() {
         console.log(this.name + " is eating banana");
     }
-   
+
 }
 
 let ani = new Animal("Bruno", "White");
@@ -25,4 +25,5 @@ let monk = new  Monkey("Chunkie", "Brown");
 ani.shout();
 monk.eatBnana();
 
-// ani.eatBnana();       This will throw an error...
+// ani.eatBnana();       This will throw an error....
+
